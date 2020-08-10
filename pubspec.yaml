@@ -1,7 +1,8 @@
 name: cupertino_fullscreen_modal
-description: A new flutter plugin project.
+description: Cupertino like fullscreen modal.
 version: 0.0.1
 author: Luke Urban
+homepage: https://github.com/lukeurban/cupertino_fullscreen_modal
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

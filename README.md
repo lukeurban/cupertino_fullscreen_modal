@@ -2,14 +2,26 @@
 
 A new flutter plugin project.
 
-## Getting Started
+A Flutter widget for displaying fullscreen modal iOS style.
+## Installing:
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Add the following to your `pubspec.yaml` file:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    dependencies:
+      cupertino_fullscreen_modal: ^0.0.1
 
+## 
+
+## Usage
+
+Wrap your widget `CupertinoFullscreenModal`. After doing that you can use:
+
+      CupertinoFullscreenModal.of(context).showModal(Widget child, onClose (popValue) {});
+
+popValue is the ThEValue passed in 
+
+    Navigator.of(context).pop(ThEValue)
+##
+
+## Demo
+![Example](https://i.imgur.com/zr8YjVm.gif)

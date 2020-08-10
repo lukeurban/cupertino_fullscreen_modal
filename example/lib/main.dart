@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:cupertino_fullscreen_modal/cupertino_fullscreen_modal.dart';
 
 void main() {
@@ -32,7 +29,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  String fromModal = 'Nothing';
+  String fromModal;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
